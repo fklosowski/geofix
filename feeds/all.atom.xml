@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>blog</title><link href="https://geofix.github.io/" rel="alternate"></link><link href="https://geofix.github.io/feeds/all.atom.xml" rel="self"></link><id>https://geofix.github.io/</id><updated>2016-09-07T19:43:00+02:00</updated><entry><title>Moduł tes</title><link href="https://geofix.github.io/modul-tes.html" rel="alternate"></link><published>2016-09-07T19:43:00+02:00</published><author><name>geofixed</name></author><id>tag:geofix.github.io,2016-09-07:modul-tes.html</id><summary type="html">&lt;p&gt;W wersji testowej 3.0.7 aplikacji Javad Mobile Tools został dodany moduł CoGo. Oddaje on do dyspozycji użytkownika szereg obliczeń geodezyjnych, zarówno tych podstawowych, jak i bardziej zaawansowanych.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>blog</title><link href="https://geofix.github.io/" rel="alternate"></link><link href="https://geofix.github.io/feeds/all.atom.xml" rel="self"></link><id>https://geofix.github.io/</id><updated>2017-09-12T16:55:00+02:00</updated><entry><title>NovAtel - Aktualizacja funkcji śledzenia pasma L dla odbiorników OEM6 i OEM7</title><link href="https://geofix.github.io/novatel-aktualizacja-funkcji-sledzenia-pasma-l-dla-odbiornikow-oem6-i-oem7.html" rel="alternate"></link><published>2017-09-12T16:55:00+02:00</published><author><name>geofixed</name></author><id>tag:geofix.github.io,2017-09-12:novatel-aktualizacja-funkcji-sledzenia-pasma-l-dla-odbiornikow-oem6-i-oem7.html</id><summary type="html">&lt;h3&gt;Background:&lt;/h3&gt;
+&lt;p&gt;NovAtel receivers rely on L-Band tracking to receive precise point positioning (PPP) correction data for TerraStar Correction Services. The precise GNSS satellite clock and orbit PPP corrections are delivered by TerraStar to the end user's NovAtel receiver via L-band from geostationary satellites or "beams". NovAtel receivers access the TerraStar correction data by tracking and subsequently decoding the LBand signal from a specific beam.&lt;/p&gt;
+&lt;h3&gt;Issue Summary:&lt;/h3&gt;
+&lt;p&gt;NovAtel receivers with firmware versions older than the versions listed in the table below will not track the TerraStar L-Band signal, if the L-Band signal frequency is changed to be outside the range of 1530- 1545 MHz. In the event of an L-Band frequency change, NovAtel receivers with older firmware versions will not be able to continuously track the L-Band signal at the new frequency. Even if the user has manually configured the receiver to track the new frequency, or requested the receiver to automatically find the new frequency, the new frequency will not be tracked resulting in loss of TerraStar positioning.&lt;/p&gt;
+&lt;h3&gt;Product Affected:&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;All OEM6-based products including OEM628/OEM638/SPAN Enclosures,
+capable of L-Band tracking with firmware versions older
+than respectively 6.710/6.606/6.631.
+
+All OEM7 receivers capable of L-Band tracking with firmware versions
+older than 7.200.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Mitigation:&lt;/h3&gt;
+&lt;p&gt;The issue stated above has been fixed in the OEM6 and OEM7 firmware versions later than those listed above.&lt;/p&gt;
+&lt;p&gt;Any customer currently utilizing or considering TerraStar services are strongly recommended to ensure that their NovAtel receivers are loaded with the latest firmware versions to ensure seamless operation during any future L-Band frequency changes.&lt;/p&gt;</summary></entry><entry><title>Moduł tes</title><link href="https://geofix.github.io/modul-tes.html" rel="alternate"></link><published>2016-09-07T19:43:00+02:00</published><author><name>geofixed</name></author><id>tag:geofix.github.io,2016-09-07:modul-tes.html</id><summary type="html">&lt;p&gt;W wersji testowej 3.0.7 aplikacji Javad Mobile Tools został dodany moduł CoGo. Oddaje on do dyspozycji użytkownika szereg obliczeń geodezyjnych, zarówno tych podstawowych, jak i bardziej zaawansowanych.
 Aktualna lista zadań obliczeniowych
 -
 -
